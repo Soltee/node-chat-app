@@ -15,3 +15,6 @@
 	- Migrations folder will be created inside primsa package.
 	- Prisma Client will be installed
 
+
+6. npx primsa studio serves an interface at 5555 port where we can see all the messages.
+

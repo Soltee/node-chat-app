@@ -1,5 +1,5 @@
 import http from 'http'
-import SocketService from '../server/services/socket.js';
+import SocketService from './services/socket.js';
 
 async function startServer() {
 

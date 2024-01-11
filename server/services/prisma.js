@@ -1,7 +1,9 @@
-import {PrimsaClient} from "@primsa/client"
+import pkg from '@prisma/client'
 
-const client = new PrimsaClient({
+const { PrismaClient } = pkg;
+
+const prismaClient = new PrismaClient({
  	log: ["query"]
 })
 
-export default client;
+export default prismaClient;
